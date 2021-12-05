@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background:linear-gradient(rgb(255, 255, 164),rgb(192, 153, 228),rgb(152, 129, 247),rgb(255, 207, 207));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+
+}
+.body{
+   background-color: whitesmoke;
+   width: 40%;
+    margin: auto;
+    padding:  2rem 2.5rem;
+    border-radius: 1rem;
+  
+}
+.body .heading{
+   
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+   
+}
+.body .convertions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.body .form .result{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+   text-align: center;
+   
+}
+.body .form .result .showResult::-webkit-scrollbar {
+    width: 0;
+  }
+.body .form .result .showResult{
+    overflow: scroll;
+    padding-top: 1rem;
+}
+.body .form label{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+    color:rgb(17, 5, 45) ;
+}
+.body .form input{
+    border: 1px solid rgb(167, 165, 165);
+    border-radius: 2rem;
+}
+
+.body .form .dropdown .dropdown-toggle{
+    border: 1px solid rgb(167, 165, 165);
+    background-color: transparent;
+    color: black;
+    font-size: 0.7rem;
+    border-radius: 2rem;
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  .dropdown select::-webkit-scrollbar-track{
+      background: #fff;
+  }
+.dropdown select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+.body .form .dropdown .form-select{
+    overflow-y: scroll;
+   max-height: 10rem;
+   padding: 0.4rem 2rem;
+  margin: auto;
+}
+.body .form .dropdown .form-select option{
+    font-size: 0.8rem;
+ 
+}
+
+
+.body .form button{
+    background-color: rgb(129, 83, 247);
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+    font-size: 1rem;
+}
+@media only screen and (max-width:900px){
+    .body{
+        width: 50%;
+        padding:  2rem 2.5rem;
+     }
+    
+}
+@media only screen and (max-width:800px){
+    .body{
+        width: 55%;
+        padding:  1.8rem 2rem;
+     }
+    
+}
+@media only screen and (max-width:700px){
+    .body{
+        width: 60%;
+        padding:  1.8rem 2rem;
+     }
+    
+}
+@media only screen and (max-width:600px){
+    .body{
+        width: 70%;
+        padding:  1.8rem 2rem;
+     }
+    
+}
+@media only screen and (max-width:500px){
+    .body{
+       
+        width: 80%;
+        padding:  1.8rem;
+       
+     }
+}
+@media only screen and (max-width:400px){
+    .body{
+       
+        width: 85%;
+        padding:  0.8rem;
+       
+     }
+}
+@media only screen and (max-width:350px){
+    .body{
+       
+        width: 90%;
+        padding:  0.8rem;
+       
+     }
+}
